@@ -66,7 +66,7 @@ public class main_misc {
 		
 		Collections.sort(v);
 		
-		for(int i = 0;i < v.size();i++){
+		for(int i = 0;i < v.size()/2;i++){
 			
 			int x = s-v.get(i);
 			int idx = binary_search(v,x);
